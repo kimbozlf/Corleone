@@ -1,0 +1,774 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: font;
+}
+@font-face {
+  font-family: font;
+  src: url(../font/IRANYekanRegular.woff2);
+}
+/*************************منو*************************/
+menu {
+  background-color: rgb(41, 54, 26);
+}
+menu > nav > ul > div.item-menu > a > li{
+  transition: all 250ms linear;
+}
+menu > nav > ul > div.item-menu > a:hover > li {
+  color: rgb(222,87,1) !important;
+}
+@media (min-width: 992px) {
+  menu {
+    height: 100px;
+  }
+}
+@media (max-width:415px) {
+  menu > nav > ul > div.item-menu li {
+  font-size: 15px;
+  }
+}
+@media (max-width:415px) {
+  menu > nav.res li {
+  font-size: 15px;
+  }
+}
+menu > nav div.khat {
+  width: 1px;
+  height: 20px;
+}
+@media (max-width: 992px) {
+  menu > nav > ul > div.item-menu > a.res {
+    display: none !important;
+  }
+}
+@media (max-width: 992px) {
+  menu > nav > ul > div.item-menu > div.khat {
+    display: none !important;
+  }
+}
+menu > nav.res > ul > a:hover {
+  background-color: rgb(187, 109, 37);
+}
+div.head > div.search {
+  outline: 2px solid rgb(187, 109, 37);
+  background-color: white;
+}
+div.head > div.search > input[type="text"] {
+  outline: none;
+}
+div.head > a.ozviat {
+  outline: 2px solid rgb(187, 109, 37);
+  outline-offset: 5px;
+  background-color: rgb(187, 109, 37);
+}
+div.head p {
+  font-size: 16px;
+}
+/*************************پایان منو*************************/
+
+/*******************autoplay-swiper*******************/
+div.first-swiper {
+  width: 98%;
+  height: 500px;
+}
+div.first-swiper > .swiper {
+  width: 100%;
+  height: 100%;
+}
+div.first-swiper > .swiper > div.button {
+  width: 97%;
+  height: 15%;
+  position: absolute;
+  bottom:5px;
+  right: 22px;
+  background-color: salmon;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  div.first-swiper > .swiper > div.button {
+    right: 15px;
+  }
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  div.first-swiper > .swiper > div.button {
+    right: 12px;
+  }
+}
+@media (max-width: 576px) {
+  div.first-swiper > .swiper > div.button {
+    right: 8px;
+  }
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  div.first-swiper > .swiper > div.button > div.swiper-button-next {
+    width: 8%;
+  }
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  div.first-swiper > .swiper > div.button > div.swiper-button-prev {
+    width: 8%;
+  }
+}
+@media (max-width: 576px) {
+  div.first-swiper > .swiper > div.button > div.swiper-button-next {
+    width: 12%;
+  }
+}
+@media (max-width: 576px) {
+  div.first-swiper > .swiper > div.button > div.swiper-button-prev {
+    width: 12%;
+  }
+}
+div.first-swiper div.swiper-button-next {
+  width: 5%;
+  height: 40%;
+  border-radius: 20%;
+  background-color: rgb(10, 10, 10);
+  outline: 3px solid rgb(187, 109, 37);
+  outline-offset: 5px;
+}
+div.first-swiper div.swiper-button-next > span {
+  color: rgb(187, 109, 37);
+}
+div.first-swiper div.swiper-button-next::after {
+  display: none;
+}
+div.first-swiper div.swiper-button-prev {
+  width: 5%;
+  height: 40%;
+  border-radius: 20%;
+  background-color: rgb(10, 10, 10);
+  outline: 3px solid rgb(187, 109, 37);
+  outline-offset: 5px;
+}
+div.first-swiper div.swiper-button-prev > span {
+  color: rgb(187, 109, 37);
+}
+div.first-swiper div.swiper-button-prev > img {
+  transform: scaleX(-1);
+}
+div.first-swiper div.swiper-button-prev::after {
+  display: none;
+}
+/*******************End-autoplay-swiper*******************/
+/******************پرفروش‌ترین سیگارهای بدون طعم******************/
+div.cigar-bitaam h6 {
+  font-size: 16px;
+  font-weight: bold;
+}
+div.cigar-bitaam > div.head > a {
+  font-size: 15px;
+  outline: 2px solid rgb(187, 109, 37);
+  outline-offset: 5px;
+  background-color: rgb(187, 109, 37);
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  div.cigar-bitaam > div.head > a {
+    width: 15% !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  div.cigar-bitaam > div.head > a {
+    width: 22% !important;
+  }
+}
+@media (max-width: 576px) {
+  div.cigar-bitaam > div.head > a {
+    width: 26% !important;
+  }
+}
+div.cigar-bitaam .swiper-slide {
+  box-shadow: 2px 2px 20px rgb(155, 155, 155);
+}
+@media (min-width: 600px) and (max-width: 1200px) {
+  div.cigar-bitaam .swiper-slide {
+    width: 35% !important;
+  }
+}
+@media (max-width: 600px) {
+  div.cigar-bitaam .swiper-slide {
+    width: 94% !important;
+  }
+}
+div.cigar-bitaam .swiper-slide a {
+  width: 100%;
+  height: 50%;
+}
+div.cigar-bitaam .swiper-slide img {
+  display: block;
+  width: 70%;
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  div.cigar-bitaam .swiper-slide img {
+    display: block;
+    width: 55%;
+  }
+}
+@media (max-width: 600px) {
+  div.cigar-bitaam .swiper-slide img {
+    display: block;
+    width: 40%;
+  }
+}
+div.cigar-bitaam p.name {
+  font-size: 13px;
+  height: 40px !important;
+}
+div.cigar-bitaam .swiper-slide div.gheymat > p {
+  font-size: 15px;
+}
+div.cigar-bitaam .swiper-slide span.gheymat {
+  font-weight: 900;
+  color: rgb(4, 197, 55);
+}
+div.cigar-bitaam .swiper-slide span.fa-heart {
+  transition: all 300ms linear;
+}
+div.cigar-bitaam .swiper-slide span.fa-heart:hover {
+  color: rgb(220, 53, 69);
+}
+/******************پایان پرفروش‌ترین سیگارهای بدون طعم******************/
+/*******************پرفروش‌ترین سیگارهای طعم‌دار*******************/
+div.cigar-taamdar h6 {
+  font-size: 16px;
+  font-weight: bold;
+}
+div.cigar-taamdar > div.head > a {
+  font-size: 15px;
+  outline: 2px solid rgb(187, 109, 37);
+  outline-offset: 5px;
+  background-color: rgb(187, 109, 37);
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  div.cigar-taamdar > div.head > a {
+    width: 15% !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  div.cigar-taamdar > div.head > a {
+    width: 22% !important;
+  }
+}
+@media (max-width: 576px) {
+  div.cigar-taamdar > div.head > a {
+    width: 26% !important;
+  }
+}
+div.cigar-taamdar .swiper-slide {
+  box-shadow: 2px 2px 20px rgb(155, 155, 155);
+}
+@media (min-width: 600px) and (max-width: 1200px) {
+  div.cigar-taamdar .swiper-slide {
+    width: 35% !important;
+  }
+}
+@media (max-width: 600px) {
+  div.cigar-taamdar .swiper-slide {
+    width: 94% !important;
+  }
+}
+div.cigar-taamdar .swiper-slide a {
+  width: 100%;
+  height: 50%;
+}
+div.cigar-taamdar .swiper-slide img {
+  display: block;
+  width: 70%;
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  div.cigar-taamdar .swiper-slide img {
+    display: block;
+    width: 55%;
+  }
+}
+@media (max-width: 600px) {
+  div.cigar-taamdar .swiper-slide img {
+    display: block;
+    width: 40%;
+  }
+}
+div.cigar-taamdar p.name {
+  font-size: 13px;
+  height: 40px !important;
+}
+div.cigar-taamdar .swiper-slide div.gheymat > p {
+  font-size: 15px;
+}
+div.cigar-taamdar .swiper-slide span.gheymat {
+  font-weight: 900;
+  color: rgb(4, 197, 55);
+}
+div.cigar-taamdar .swiper-slide span.fa-heart {
+  transition: all 300ms linear;
+}
+div.cigar-taamdar .swiper-slide span.fa-heart:hover {
+  color: rgb(220, 53, 69);
+}
+/*******************پایان پرفروش‌ترین سیگارهای طعم‌دار*******************/
+/**********************درباره مارلبرو**********************/
+@media (min-width:668px) and (max-width:768px) {
+  div.parallax {
+    height: 500px;
+  }
+}
+@media (min-width:576px) and (max-width:668px) {
+  div.parallax {
+    height: 550px;
+  }
+}
+@media (min-width:415px) and  (max-width:576px) {
+  div.parallax {
+    height: 670px;
+  }
+}
+@media (max-width:415px) {
+  div.parallax {
+    height: 750px;
+  }
+}
+div.parallax > .swiper {
+  width: 100%;
+  height: 100%;
+  background: rgb(173, 1, 1);
+}
+@media (max-width: 992px) {
+  div.parallax > .swiper {
+    background: rgb(75, 0, 0);
+  }
+}
+div.parallax .swiper-slide {
+  font-size: 18px;
+  color: #fff;
+  padding: 40px 60px;
+}
+div.parallax .parallax-bg {
+  position: absolute;
+  left: -525px;
+  top: 0;
+  width: 108%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 992px) {
+  div.parallax .parallax-bg {
+    mix-blend-mode: multiply;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  div.parallax .parallax-bg {
+    position: absolute;
+    left: -500px;
+    top: 0;
+    width: 110%;
+    height: 120%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+}
+@media (min-width: 715px) and (max-width: 992px) {
+  div.parallax .parallax-bg {
+    position: absolute;
+    left: -500px;
+    top: -120px;
+    width: 170%;
+    height: 130%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+}
+@media (min-width: 415px) and  (max-width: 715px) {
+  div.parallax .parallax-bg {
+    position: absolute;
+    left: -500px;
+    top: -120px;
+    width: 220%;
+    height: 130%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+}
+@media (max-width: 415px) {
+  div.parallax .parallax-bg {
+    position: absolute;
+    left: -500px;
+    top: -120px;
+    width: 235%;
+    height: 130%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+}
+div.parallax .swiper-slide .title {
+  font-size: 41px;
+  font-weight: 300;
+}
+div.parallax .swiper-slide .text {
+  font-size: 16px;
+  max-width: 800px;
+}
+@media (max-width: 992px) {
+  div.parallax .swiper-slide p.x1 {
+    max-width: 700px;
+  }
+}
+@media (max-width: 992px) {
+  div.parallax .swiper-slide p.x2 {
+    max-width: 650px;
+  }
+}
+div.parallax .swiper-slide p.x3 {
+  max-width: 680px;
+}
+@media (max-width: 992px) {
+  div.parallax .swiper-slide p.x3 {
+    max-width: 700px;
+  }
+}
+div.parallax .swiper-slide p.x4 {
+  max-width: 520px;
+}
+@media (max-width: 992px) {
+  div.parallax .swiper-slide p.x4 {
+    max-width: 400px;
+  }
+}
+div.parallax .swiper-slide p.x5 {
+  max-width: 680px;
+}
+div.parallax .swiper-slide p.x6 {
+  max-width: 500px;
+}
+@media (max-width: 992px) {
+  div.parallax .swiper-slide p.x6 {
+    max-width: 400px;
+  }
+}
+div.parallax .swiper-slide p.x7 {
+  max-width: 400px;
+}
+@media (max-width: 992px) {
+  div.parallax .swiper-slide p.x7 {
+    max-width: 300px;
+  }
+}
+/**********************پایان درباره مارلبرو**********************/
+/*****************بهترین های سیگار برگ*****************/
+div.cigar-barg h6 {
+  font-size: 16px;
+  font-weight: bold;
+}
+div.cigar-barg > div.head > a {
+  font-size: 15px;
+  outline: 2px solid rgb(187, 109, 37);
+  outline-offset: 5px;
+  background-color: rgb(187, 109, 37);
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  div.cigar-barg > div.head > a {
+    width: 15% !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  div.cigar-barg > div.head > a {
+    width: 22% !important;
+  }
+}
+@media (max-width: 576px) {
+  div.cigar-barg > div.head > a {
+    width: 26% !important;
+  }
+}
+div.cigar-barg .swiper-slide {
+  box-shadow: 2px 2px 20px rgb(155, 155, 155);
+}
+@media (min-width: 600px) and (max-width: 1200px) {
+  div.cigar-barg .swiper-slide {
+    width: 35% !important;
+  }
+}
+@media (max-width: 600px) {
+  div.cigar-barg .swiper-slide {
+    width: 94% !important;
+  }
+}
+div.cigar-barg .swiper-slide a {
+  width: 100%;
+  height: 50%;
+}
+div.cigar-barg .swiper-slide img {
+  display: block;
+  width: 70%;
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  div.cigar-barg .swiper-slide img {
+    display: block;
+    width: 55%;
+  }
+}
+@media (max-width: 600px) {
+  div.cigar-barg .swiper-slide img {
+    display: block;
+    width: 40%;
+  }
+}
+div.cigar-barg .swiper-slide div.gheymat > p {
+  font-size: 15px;
+}
+div.cigar-barg p.name {
+  font-size: 13px;
+  height: 40px !important;
+}
+div.cigar-barg .swiper-slide span.gheymat {
+  font-weight: 900;
+  color: rgb(4, 197, 55);
+}
+div.cigar-barg .swiper-slide span.fa-heart {
+  transition: all 300ms linear;
+}
+div.cigar-barg .swiper-slide span.fa-heart:hover {
+  color: rgb(220, 53, 69);
+}
+/*****************پایان بهترین های سیگار برگ*****************/
+
+/*************************موارد*************************/
+div.mavared {
+  background-color: rgb(41, 54, 26);
+}
+@media (min-width: 992px) {
+  div.mavared > div.item {
+    width: 24% !important;
+  }
+}
+div.mavared img {
+  width: 30%;
+}
+div.mavared span {
+  font-size: 18px;
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  div.mavared span {
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  div.mavared span {
+    font-size: 13px;
+  }
+}
+div.mavared p {
+  font-size: 14px;
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  div.mavared p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 768px) {
+  div.mavared p {
+    font-size: 11px;
+  }
+}
+/*************************پایان موارد*************************/
+
+/**********************جدیدترین‌های ویپ و پاد**********************/
+div.vape-pod h6 {
+  font-size: 16px;
+  font-weight: bold;
+}
+div.vape-pod > div.head > a {
+  font-size: 15px;
+  outline: 2px solid rgb(187, 109, 37);
+  outline-offset: 5px;
+  background-color: rgb(187, 109, 37);
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  div.vape-pod > div.head > a {
+    width: 15% !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  div.vape-pod > div.head > a {
+    width: 22% !important;
+  }
+}
+@media (max-width: 576px) {
+  div.vape-pod > div.head > a {
+    width: 26% !important;
+  }
+}
+div.vape-pod .swiper-slide {
+  box-shadow: 2px 2px 20px rgb(155, 155, 155);
+}
+@media (min-width: 600px) and (max-width: 1200px) {
+  div.vape-pod .swiper-slide {
+    width: 35% !important;
+  }
+}
+@media (max-width: 600px) {
+  div.vape-pod .swiper-slide {
+    width: 94% !important;
+  }
+}
+div.vape-pod .swiper-slide a {
+  width: 100%;
+  height: 50%;
+}
+div.vape-pod .swiper-slide img {
+  display: block;
+  width: 70%;
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  div.vape-pod .swiper-slide img {
+    display: block;
+    width: 55%;
+  }
+}
+@media (max-width: 600px) {
+  div.vape-pod .swiper-slide img {
+    display: block;
+    width: 40%;
+  }
+}
+div.vape-pod .swiper-slide img.x1 {
+  display: block;
+  width: 32%;
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  div.vape-pod .swiper-slide img.x1 {
+    display: block;
+    width: 25%;
+  }
+}
+@media (max-width: 600px) {
+  div.vape-pod .swiper-slide img.x1 {
+    display: block;
+    width: 18%;
+  }
+}
+div.vape-pod .swiper-slide img.x2 {
+  display: block;
+  width: 35%;
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  div.vape-pod .swiper-slide img.x2 {
+    display: block;
+    width: 28%;
+  }
+}
+@media (max-width: 600px) {
+  div.vape-pod .swiper-slide img.x2 {
+    display: block;
+    width: 20%;
+  }
+}
+div.vape-pod .swiper-slide img.x3 {
+  display: block;
+  width: 45%;
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  div.vape-pod .swiper-slide img.x3 {
+    display: block;
+    width: 34%;
+  }
+}
+@media (max-width: 600px) {
+  div.vape-pod .swiper-slide img.x3 {
+    display: block;
+    width: 24%;
+  }
+}
+div.vape-pod .swiper-slide div.gheymat > p {
+  font-size: 15px;
+}
+div.vape-pod p.name {
+  font-size: 13px;
+  height: 40px !important;
+}
+div.vape-pod .swiper-slide span.gheymat {
+  font-weight: 900;
+  color: rgb(4, 197, 55);
+}
+div.vape-pod .swiper-slide span.fa-heart {
+  transition: all 300ms linear;
+}
+div.vape-pod .swiper-slide span.fa-heart:hover {
+  color: rgb(220, 53, 69);
+}
+/**********************پایان جدیدترین‌های ویپ و پاد**********************/
+
+/**************************footer**************************/
+footer {
+  box-shadow: 2px 2px 15px black;
+  background-color: rgb(141, 141, 141);
+}
+footer > div.darbare-ma > p {
+  font-size: 14px;
+  color: rgb(52, 52, 52);
+}
+footer > div.darbare-ma > a {
+  font-size: 14px;
+  color: white;
+}
+footer > div.ertebat-bama a {
+  width: 48%;
+  transition: all 450ms linear;
+}
+footer > div.ertebat-bama a:hover {
+  box-shadow: 0 0.5px 20px rgb(100, 100, 100);
+}
+@media (min-width: 576px) and (max-width: 1200px) {
+  footer > div.ertebat-bama a {
+    width: 40% !important;
+  }
+}
+footer > div.ertebat-bama a > img {
+  width: 15%;
+}
+footer > div.ertebat-bama a > img.whatsapp {
+  width: 13%;
+}
+footer > div.ertebat-bama a > p {
+  font-size: 14px;
+  color: rgb(52, 52, 52);
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  footer > div.ertebat-bama > div.ertebat {
+    flex-wrap: wrap;
+    column-gap: 50px;
+    justify-content: center;
+  }
+}
+@media (max-width: 576px) {
+  footer > div.ertebat-bama > div.ertebat {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+  }
+}
+@media (max-width:768px) {
+  footer > div.ertebat-bama a > img.twitter {
+    margin-left: 20px;
+  }
+}
+@media (max-width:768px) {
+  footer > div.ertebat-bama a > img.youtube {
+    margin-left: 17px;
+  }
+}
+@media (max-width: 576px) {
+  footer > div.ertebat-bama a {
+    width: 65%;
+  }
+}
+footer > div.pishnahadat-email p {
+  color: white;
+}
+/**************************End-footer**************************/
